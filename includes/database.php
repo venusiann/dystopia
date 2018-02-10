@@ -17,7 +17,7 @@ $conn = new mysqli($host, $username, $password, $database);
 
 if($conn->connect_error)
 {
-  exit('<h4>Could not connect to database</h4>');
+  exit('Could not connect to database');
 }
 
 ?>
